@@ -86,8 +86,7 @@ document.getElementById('moodPhotoWrap').style.display='block';
 const birth=new Date('2025-11-25T00:00:00');const now=new Date();let months=(now.getFullYear()-birth.getFullYear())*12+(now.getMonth()-birth.getMonth());if(now.getDate()<birth.getDate())months--;document.getElementById('ageText').textContent=months+' months old';
 </script>
   
-  <footer>
-    <img src="my_picture.JPG" alt="Lilly Allard" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%;">
-    <p>Made by Lilly Allard</p>
-</footer>
-</body></html>
+ <footer style="text-align: center; padding: 30px 0;">
+    <img src="my_picture.JPG" alt="Lilly Allard" style="width: 150px; height: auto; display: block; margin: 0 auto 10px;">
+    <p style="margin: 0; font-size: 16px;">Made by Lilly Allard</p>
+</footer></body></html>
